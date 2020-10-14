@@ -9,6 +9,7 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/tvResultado"
         android:layout_width="match_parent"
@@ -31,17 +32,18 @@
             <Button
                 android:id="@+id/tvReinicio"
                 style="@style/ActionButtonstyle"
-                android:text="CE"/>
+                android:text="@string/btnCE"/>
 
             <Button
                 android:id="@+id/masomenos"
                 style="@style/ActionButtonstyle"
-                android:text="+/-"/>
+                android:text="@string/btnmasmenos"/>
 
             <Button
                 android:id="@+id/porcentaje"
                 style="@style/ActionButtonstyle"
                 android:text="%"/>
+
 
             <Button
                 android:id="@+id/dividir"

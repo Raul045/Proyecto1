@@ -179,9 +179,9 @@ public class MainActivity extends AppCompatActivity {
         btnMasoMenos.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 reserva = Resultado.getText().toString();
-                operador = "+";
-                operador1 = "-";
-                Resultado.setText("");
+                Double numone;
+                 numone = Double.parseDouble(reserva)*(-1);
+                Resultado.setText(String.valueOf(numone));
             }
         });
 

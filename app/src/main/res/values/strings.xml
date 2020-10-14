@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proyecto1</string>
+    <string name="btnCE">CE</string>
+    <string name="btnmasmenos">+/-</string>
 </resources>
