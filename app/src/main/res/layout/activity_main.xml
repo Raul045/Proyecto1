@@ -148,13 +148,11 @@
                 android:id="@+id/cero"
                 style="@style/NumeroButtonstyle"
                 android:text="0"/>
-
             <ImageButton
                 android:id="@+id/back"
                 style="@style/NumeroButtonstyle"
                 android:src="@drawable/backspace"
-                android:scaleType="center"/>
-
+                android:scaleType="center" />
             <Button
                 android:id="@+id/igual"
                 style="@style/ActionButtonstyle"

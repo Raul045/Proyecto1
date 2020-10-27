@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     Button btnClean;
     Button btnMasoMenos;
     Button btnPorcentajes;
+    Button btnCero;
     ImageView btnBorrar;
     TextView Resultado;
     Button btnPunto;
@@ -60,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
         btnIgual = (Button)findViewById(R.id.igual);
         btnMasoMenos = (Button)findViewById(R.id.masomenos);
         btnPorcentajes = (Button)findViewById(R.id.porcentaje);
+        btnCero = (Button)findViewById(R.id.cero);
 
         btnUno.setOnClickListener(new View.OnClickListener(){
 
@@ -133,6 +135,15 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 mostrar = Resultado.getText().toString();
                 mostrar = mostrar + "9";
+                Resultado.setText(mostrar);
+            }
+        });
+
+        btnCero.setOnClickListener(new View.OnClickListener(){
+
+            public void onClick(View v){
+                mostrar = Resultado.getText().toString();
+                mostrar = mostrar + "0";
                 Resultado.setText(mostrar);
             }
         });
